@@ -1,0 +1,258 @@
+@media (width >= 701px) {
+  img.anua-logo {
+    width: 140px;
+    height: 40px;
+  }
+
+  .text-container {
+    align-items: center;
+    height: 89px;
+    display: flex;
+  }
+
+  .text-container p {
+    letter-spacing: -.24px;
+    width: 90%;
+    height: 99%;
+    font-family: Helvetica-N7, sans-serif;
+    font-size: 35.4px;
+  }
+
+  .hero-section {
+    height: 80vh;
+  }
+
+  div.hero-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  img.hero-img-small {
+    display: none;
+  }
+
+  img.hero-img-large {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    display: block;
+  }
+
+  .text-container p strong {
+    font-size: 35px;
+  }
+
+  div.spacing-section {
+    height: 283px;
+    padding: 64px 0 0;
+  }
+
+  .text-container-spacing-section {
+    width: 204px;
+    height: 74px;
+  }
+
+  .text-container-spacing-section #brand-story {
+    height: 23px;
+  }
+
+  .text-container-spacing-section p {
+    height: 38px;
+  }
+
+  .text-container-spacing-section p strong {
+    font-size: 29.8px;
+  }
+
+  #spacing {
+    display: block;
+  }
+
+  #spacing p {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .text-container-description {
+    height: 255px;
+  }
+
+  .wrapper {
+    width: 680px;
+    height: 144px;
+  }
+
+  #first-p, #second-p {
+    width: 100%;
+    height: 40.5px;
+    font-size: 15px;
+  }
+
+  #second-p {
+    height: 74.25px;
+  }
+
+  #second-p p {
+    margin: 20px 0 0;
+  }
+
+  .wrapper-paragraph {
+    min-height: 95px;
+    max-height: 143.75px;
+  }
+
+  .grid-section {
+    grid-template-rows: repeat(2, 50vw);
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    display: grid;
+  }
+
+  .grid-1, .grid-3 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .grid-1 img, .grid-3 img {
+    object-fit: cover;
+    background-size: cover;
+    background-position: cover;
+    width: 100%;
+    min-height: 100%;
+  }
+
+  .grid-2, .grid-4 {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  .grid-4 {
+    justify-content: end;
+  }
+
+  .grid-2.wrapper1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .grid-4 .wrapper-paragraph1 {
+    padding: 0 96px;
+  }
+
+  .grid-2 .wrapper-paragraph1, .grid-4 .wrapper-paragraph1 {
+    flex-direction: column;
+    width: 80%;
+    height: 50%;
+    margin: 24px 0;
+    padding: 0 48px 0 96px;
+    display: flex;
+  }
+
+  #text-wrapper {
+    opacity: .7;
+    text-wrap: pretty;
+    text-align: left;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 20px 0 0;
+    font-family: Helvetica-N4, sans-serif;
+    font-size: 15px;
+    display: flex;
+    overflow: hidden;
+  }
+
+  p#heading-p {
+    text-align: left;
+    text-wrap: pretty;
+    margin-bottom: 10px 0px;
+    width: 90%;
+    height: 30%;
+    font-family: Helvetica-N7, sans-serif;
+    font-size: 34.9px;
+  }
+
+  #description-1, #description-2 {
+    text-align: left;
+    width: 100%;
+    height: 100%;
+  }
+
+  #description-2 {
+    margin: 20px 0 0;
+  }
+
+  .grid-4 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .grid-3 {
+    grid-area: 2 / 2;
+  }
+
+  .carousel-section {
+    height: 30%;
+    padding: 0 0 64px;
+  }
+
+  .carousel-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 45%;
+    height: 100%;
+    display: grid;
+    overflow: hidden;
+  }
+
+  .earth-img, .study-img, .sustainability-img {
+    text-align: left;
+    margin: 0 0 20px;
+  }
+
+  .earth-img i, .study-img i, .sustainability-img i {
+    opacity: .6;
+    font-size: 24px;
+  }
+
+  .carousel-body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+
+  .wrapped-strong {
+    text-align: left;
+    font-family: Helvetica-N7, sans-serif;
+    font-size: 24.2px;
+  }
+
+  .carousel-body p.p1, .carousel-body p.p2 {
+    text-align: left;
+    font-family: Helvetica-N4, sans-serif;
+    font-size: 15px;
+  }
+
+  .navigation-dot {
+    display: none;
+  }
+
+  .sign-up-section {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    height: 160px;
+    padding: 64px 0;
+  }
+
+  .sign-up-section .sign-up, .sign-up-section .here {
+    font-size: 30.8px;
+  }
+
+  .universe-section strong {
+    font-size: 24.2px;
+  }
+}
+/*# sourceMappingURL=membership.19f00208.css.map */

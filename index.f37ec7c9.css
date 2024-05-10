@@ -1,0 +1,284 @@
+* :before, :after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+* {
+  font-family: Helvetica;
+}
+
+.bag-icon a {
+  color: #000;
+}
+
+.offcanvas-subheader {
+  display: block;
+}
+
+.btn-primary, .sidebar-toggler {
+  --bs-btn-bg: none;
+  --bs-btn-color: black;
+  --bs-btn-border-color: none;
+  --bs-btn-hover-bg: none;
+  --bs-btn-hover-color: black;
+  --bs-btn-active-bg: none;
+}
+
+header {
+  z-index: 100;
+}
+
+.header-wrapper {
+  display: block;
+}
+
+.container-wrapper {
+  background-color: #0000;
+  height: 100%;
+}
+
+.promotion-banner {
+  justify-content: center;
+  height: 44.8px;
+  display: flex;
+}
+
+.banner-label, .navigation-label {
+  color: #fff;
+  height: 100%;
+  font-size: 14px;
+  font-weight: 10;
+}
+
+.banner-container {
+  width: 500px;
+}
+
+.promotion-banner .container-wrapper {
+  width: 100%;
+  max-width: 650px;
+  height: 100%;
+  justify-content: space-between !important;
+}
+
+.container-side-menu {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+}
+
+.container-side-menu .btn-primary, .container-side-menu .sidebar-toggler {
+  padding-left: 0;
+}
+
+.navigation-banner {
+  background-color: #fff;
+  height: 78.38px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.navigation-banner .container-wrapper {
+  height: 100%;
+}
+
+.navigation-banner .row {
+  --bs-gutter-x: 0;
+  height: 100%;
+  padding-right: 0;
+}
+
+.navigation-banner .container, .navigation-banner .container-side-menu {
+  --bs-gutter-x: 0;
+  max-width: none;
+}
+
+.navigation-label {
+  width: 100px;
+  padding: 0;
+}
+
+.icon-menu-left {
+  justify-content: start;
+  display: flex;
+}
+
+.icon-menu-right {
+  justify-content: end;
+  display: flex;
+}
+
+.navigation-list {
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.accordion-static-button:after {
+  width: 0;
+  height: 0;
+}
+
+.navbar-toggler-icon {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.sidebar-toggler {
+  --bs-btn-active-bg: none;
+  --bs-btn-border-color: none;
+  background-color: #0000 !important;
+}
+
+.active .offcanvas-1 {
+  transition: none;
+}
+
+.main-menu-component {
+  z-index: 20;
+}
+
+.sub-menu-component {
+  z-index: 1;
+  padding-left: 400px;
+  width: 800px !important;
+}
+
+.offcanvas-header {
+  width: 0;
+  margin-bottom: -24px;
+  margin-left: -7px;
+  padding: 20px;
+  display: block !important;
+}
+
+.offcanvas-header .btn-close, .row > * {
+  padding-left: 0;
+}
+
+.accordion-header {
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  line-height: var(--bs-body-line-height);
+}
+
+.offcanvas-body a, .offcanvas-subbody a {
+  color: #656565d5;
+  text-decoration: none;
+}
+
+.offcanvas-body ul, .offcanvas-subbody ul {
+  border-left: 1px solid #ddd;
+  margin-left: 10px;
+  list-style: none;
+}
+
+.offcanvas-body .offcanvas-component, .offcanvas-subbody .offcanvas-component {
+  padding: 20px 0;
+}
+
+.offcanvas-body .accordion, .offcanvas-subbody .accordion {
+  --bs-accordion-border-color: none !important;
+  --bs-accordion-active-color: none !important;
+  --bs-accordion-active-bg: none !important;
+}
+
+.offcanvas-body .accordion .accordion, .offcanvas-subbody .accordion .accordion {
+  --bs-accordion-active-color: none !important;
+  --bs-accordion-border-color: none !important;
+  --bs-accordion-active-bg: none !important;
+}
+
+.offcanvas-body .accordion .accordion-button, .offcanvas-subbody .accordion .accordion-button, .offcanvas-body .accordion .accordion-static-button, .offcanvas-subbody .accordion .accordion-static-button {
+  padding: 16px 0;
+}
+
+.offcanvas-body .accordion .accordion-body, .offcanvas-subbody .accordion .accordion-body {
+  padding: 0;
+}
+
+.offcanvas-body .accordion-item a, .offcanvas-subbody .accordion-item a {
+  color: #000 !important;
+}
+
+.offcanvas-body .accordion-button, .offcanvas-subbody .accordion-button, .offcanvas-body .accordion-static-button, .offcanvas-subbody .accordion-static-button {
+  margin: 8px 0;
+  box-shadow: none !important;
+  padding: 20px 0 !important;
+}
+
+.offcanvas-subbody {
+  margin-top: 35px;
+}
+
+#new-text, #bestsellers-text {
+  color: #000;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (width <= 760px) {
+  .sub-menu-component {
+    z-index: 30;
+    width: 400px !important;
+    padding-left: 0 !important;
+  }
+
+  .mobile {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    display: flex;
+  }
+
+  .navigation-banner {
+    height: 60px;
+
+    & .row > * {
+      padding: 10px;
+      position: absolute;
+    }
+  }
+
+  .navigation-list {
+    margin-top: 6px;
+  }
+
+  .sidebar-toggler {
+    z-index: 10;
+  }
+}
+
+.hidden {
+  visibility: hidden !important;
+  display: none !important;
+}
+
+.inner-button-view-product {
+  justify-content: center;
+  display: flex;
+}
+
+.inner-button-view-product a {
+  width: 600px;
+}
+
+.fw-bold {
+  text-align: center;
+}
+/*# sourceMappingURL=index.f37ec7c9.css.map */
